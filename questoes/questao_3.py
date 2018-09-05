@@ -11,7 +11,14 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 3")
+    raio = int(input("Digite o raio do círculo "))
+
+    pi = 3.14159265
+    area = pi * (raio**2)
+    diametro = 2 * raio
+    comprimento = 2 * pi * raio
+
+    print("Área: {} , Diâmetro: {} , Comprimento: {} ".format(area, diametro, comprimento))
 
 
     
